@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+</head>
+
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Staj Deneme</h1>
+    </div>
+    <div id="div1" class="container col-md-3"></div>
+        <div class="row">
+            <form class="form-group col-md-8">
+                <div class="form-group">
+                    <label for="ogr">Öğrenci Adı</label>
+                    <input class="form-control" type="text" id="ogr">
+                </div>
+                <div class="form-group">
+                    <label for="soyad">Öğrenci Soyadı</label>
+                    <input type="text" class="form-control" id="soyad">
+                </div>
+                <div class="form-group">
+                    <label for="bolum">Öğrenci Bölüm</label>
+                    <select class="form-control form-control-lg col-md-6">
+                        <option value="Web">Web</option>
+                        <option value="Masaüstü">Masaüstü</option>
+                        <option value="Kontrol">Kontrol</option>
+                    </select>
+                </div>
+                <div class="form-check-inline">
+                    <label for="gender" class="form-check-label">
+                        <input type="radio" name="gender" id="gender" class="form-check-input" checked="true">Erkek
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label for="gender" class="form-check-label">
+                        <input type="radio" name="gender" id="gender" class="form-check-input">Kadın
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="aciklama">Açıklama</label>
+                    <textarea rows="8" class="form-control" name="aciklama"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" id="gonder" class="btn btn-success" value="Gönder">
+                </div>
+        </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
